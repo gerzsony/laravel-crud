@@ -26,11 +26,10 @@ php artisan make:controller ContactController --resource
 #(add the route resource in routes/web.php)
 #(edit app/Http/Controllers/ContactController.php)
 
-echo.> resources/views/base.blade.php
+touch resources/views/base.blade.php
 mkdir "resources/views/contacts"
-echo.> resources/views/contacts/create.blade.php
-echo.> resources/views/contacts/index.blade.php
-echo.> resources/views/contacts/edit.blade.php
-
+touch resources/views/contacts/create.blade.php
+touch resources/views/contacts/index.blade.php
+touch resources/views/contacts/edit.blade.php
 
 php artisan serve
